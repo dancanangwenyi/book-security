@@ -1,0 +1,30 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: SECURITY-SERVICE
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mtech_users_db
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970  # JWT secret key for signing tokens
+      expiration: 86400000  # JWT expiration time in milliseconds (1 day)
+      refresh-token:
+        expiration: 604800000  # Refresh token expiration time in milliseconds (7 days)
