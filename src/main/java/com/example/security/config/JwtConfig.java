@@ -1,4 +1,4 @@
-package com.example.security.configs;
+package com.example.security.config;
 
 import lombok.Getter;
 import lombok.Setter;

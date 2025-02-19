@@ -1,4 +1,4 @@
-package com.example.security.exceptions;
+package com.example.security.exception;
 
 public class UserConflictException extends RuntimeException{
     public UserConflictException() {

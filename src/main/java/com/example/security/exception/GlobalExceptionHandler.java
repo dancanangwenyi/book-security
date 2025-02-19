@@ -1,4 +1,4 @@
-package com.example.security.exceptions;
+package com.example.security.exception;
 
 import com.example.security.common.ErrorResponse;
 import org.springframework.http.HttpStatus;

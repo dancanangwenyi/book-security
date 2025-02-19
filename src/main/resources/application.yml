@@ -28,3 +28,11 @@ application:
       expiration: 86400000  # JWT expiration time in milliseconds (1 day)
       refresh-token:
         expiration: 604800000  # Refresh token expiration time in milliseconds (7 days)
+
+# ✅ Enable Eureka Client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

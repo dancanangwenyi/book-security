@@ -1,9 +1,9 @@
-package com.example.security.controllers;
+package com.example.security.controller;
 
-import com.example.security.dtos.AuthenticationRequestDTO;
-import com.example.security.dtos.AuthenticationResponseDTO;
-import com.example.security.dtos.RegisterRequestDTO;
-import com.example.security.services.AuthenticationService;
+import com.example.security.dto.AuthenticationRequestDTO;
+import com.example.security.dto.AuthenticationResponseDTO;
+import com.example.security.dto.RegisterRequestDTO;
+import com.example.security.service.AuthenticationService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

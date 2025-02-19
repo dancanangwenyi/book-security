@@ -1,4 +1,4 @@
-package com.example.security.dtos;
+package com.example.security.dto;
 
 public record AuthenticationRequestDTO(
         String email,

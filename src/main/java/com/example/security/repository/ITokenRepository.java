@@ -1,6 +1,6 @@
-package com.example.security.repositories;
+package com.example.security.repository;
 
-import com.example.security.models.Token;
+import com.example.security.model.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

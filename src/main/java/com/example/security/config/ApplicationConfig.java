@@ -1,7 +1,7 @@
-package com.example.security.configs;
+package com.example.security.config;
 
-import com.example.security.exceptions.UserNotFoundException;
-import com.example.security.repositories.IUserRepository;
+import com.example.security.exception.UserNotFoundException;
+import com.example.security.repository.IUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.security.models;
+package com.example.security.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.example.security.models.Permission.*;
+import static com.example.security.model.Permission.*;
 
 @RequiredArgsConstructor
 public enum Role {

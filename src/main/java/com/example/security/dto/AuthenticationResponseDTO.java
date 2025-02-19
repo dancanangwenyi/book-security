@@ -1,7 +1,7 @@
-package com.example.security.dtos;
+package com.example.security.dto;
 
+import com.example.security.model.Role;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sayuri.security.models.Role;
 
 public record AuthenticationResponseDTO(
         @JsonProperty("accessToken") String accessToken,

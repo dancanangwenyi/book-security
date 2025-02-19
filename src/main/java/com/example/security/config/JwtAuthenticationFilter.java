@@ -1,7 +1,7 @@
-package com.example.security.configs;
+package com.example.security.config;
 
-import com.example.security.repositories.ITokenRepository;
-import com.example.security.services.IJwtService;
+import com.example.security.repository.ITokenRepository;
+import com.example.security.service.IJwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

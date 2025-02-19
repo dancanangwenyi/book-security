@@ -1,6 +1,6 @@
-package com.example.security.services;
+package com.example.security.service;
 
-import com.example.security.repositories.ITokenRepository;
+import com.example.security.repository.ITokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

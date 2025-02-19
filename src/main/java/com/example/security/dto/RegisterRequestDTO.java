@@ -1,6 +1,6 @@
-package com.example.security.dtos;
+package com.example.security.dto;
 
-import com.sayuri.security.models.Role;
+import com.example.security.model.Role;
 
 public record RegisterRequestDTO(
         String firstName,

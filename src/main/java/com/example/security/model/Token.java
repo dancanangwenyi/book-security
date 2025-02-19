@@ -1,4 +1,4 @@
-package com.example.security.models;
+package com.example.security.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
